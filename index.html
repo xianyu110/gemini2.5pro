@@ -3,477 +3,180 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gemini 2.5 Pro 国内使用完全指南，五大主流方案对比，支持多语言切换">
     <title>Gemini 2.5 Pro 国内使用完全指南</title>
-    <meta name="description" content="Gemini 2.5 Pro 国内使用完全指南：五大主流方案对比，免费体验，官方订阅，镜像站点">
-    <meta name="keywords" content="Gemini, AI, 人工智能, 国内使用, 免费体验">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
 </head>
 <body>
-    <!-- 导航栏 -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <i class="fas fa-robot"></i>
-                <span>Gemini 指南</span>
+    <div class="container">
+        <header class="header">
+            <div class="hero">
+                <h1 class="title" data-i18n="header.title">Gemini 2.5 Pro 国内使用完全指南</h1>
+                <p class="subtitle" data-i18n="header.subtitle">五大主流方案对比 · 最新更新时间：<span id="lastUpdate">2025-08-02</span></p>
+                <div class="hero-image" data-i18n="header.heroImage">🧠 AI 助手指南</div>
             </div>
-            <ul class="nav-menu">
-                <li><a href="#hero">首页</a></li>
-                <li><a href="#comparison">方案对比</a></li>
-                <li><a href="#methods">详细方案</a></li>
-                <li><a href="#recommendation">选择建议</a></li>
-            </ul>
-            <div class="nav-toggle">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </div>
-    </nav>
+        </header>
 
-    <!-- 英雄区 -->
-    <section id="hero" class="hero">
-        <div class="hero-container">
-            <div class="hero-content">
-                <div class="hero-badge">
-                    <span>🚀 最新更新</span>
-                    <span class="update-time" id="updateTime">2025-08-02</span>
-                </div>
-                <h1 class="hero-title">
-                    Gemini 2.5 Pro <br>
-                    <span class="gradient-text">国内使用完全指南</span>
-                </h1>
-                <p class="hero-description">
-                    五大主流方案对比，助您选择最适合的 Gemini 2.5 Pro 体验方式
-                </p>
-                <div class="hero-buttons">
-                    <a href="#comparison" class="btn btn-primary">
-                        <i class="fas fa-chart-bar"></i>
-                        方案对比
-                    </a>
-                    <a href="#methods" class="btn btn-secondary">
-                        <i class="fas fa-book"></i>
-                        使用指南
-                    </a>
-                </div>
+        <section class="intro">
+            <div class="intro-content">
+                <p data-i18n="intro.content">谷歌最新发布的 Gemini 2.5 Pro (I/O edition，代号 0605) 在编程、超长上下文、数学推理、科研论文解析、图像识别等方面表现突出，相比 0325 版本有显著提升，平均响应时间控制在 70 秒以内，是推理与创造力并存的强大 AI 工具。</p>
             </div>
-            <div class="hero-image">
-                <div class="floating-card">
-                    <i class="fas fa-brain"></i>
-                    <h3>Gemini 2.5 Pro</h3>
-                    <p>编程 · 推理 · 创造</p>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- 方案对比表 -->
-    <section id="comparison" class="comparison">
-        <div class="container">
-            <div class="section-header">
-                <h2>方案对比一览</h2>
-                <p>选择最适合您需求的使用方式</p>
-            </div>
-            
-            <div class="comparison-table-wrapper">
+        <section class="comparison">
+            <h2 data-i18n="comparison.title">方案对比一览表</h2>
+            <div class="table-container">
                 <table class="comparison-table">
                     <thead>
                         <tr>
-                            <th>使用方式</th>
-                            <th>便利程度</th>
-                            <th>成本投入</th>
-                            <th>技术门槛</th>
-                            <th>功能完整度</th>
-                            <th>推荐指数</th>
+                            <th data-i18n="comparison.headers.method">使用方式</th>
+                            <th data-i18n="comparison.headers.convenience">便利程度</th>
+                            <th data-i18n="comparison.headers.cost">成本投入</th>
+                            <th data-i18n="comparison.headers.technical">技术门槛</th>
+                            <th data-i18n="comparison.headers.completeness">功能完整度</th>
+                            <th data-i18n="comparison.headers.recommendation">推荐指数</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="highlight">
-                            <td>
-                                <div class="method-name">
-                                    <i class="fas fa-graduation-cap"></i>
-                                    教育邮箱免费
-                                </div>
-                            </td>
-                            <td><div class="rating" data-rating="2">⭐⭐</div></td>
-                            <td><span class="cost free">免费15个月</span></td>
-                            <td><div class="rating" data-rating="3">需特定条件</div></td>
-                            <td><div class="rating" data-rating="5">⭐⭐⭐⭐⭐</div></td>
-                            <td><div class="rating recommended" data-rating="5">⭐⭐⭐⭐⭐</div></td>
+                        <tr>
+                            <td data-i18n="comparison.methods.official">官网付费订阅</td>
+                            <td><span class="stars">⭐⭐⭐</span></td>
+                            <td>20美元/月</td>
+                            <td data-i18n="comparison.technical_levels.official">需科学上网</td>
+                            <td><span class="stars">⭐⭐⭐⭐⭐</span></td>
+                            <td><span class="stars">⭐⭐⭐⭐</span></td>
                         </tr>
                         <tr class="highlight">
-                            <td>
-                                <div class="method-name">
-                                    <i class="fas fa-globe"></i>
-                                    国内镜像直连
-                                </div>
-                            </td>
-                            <td><div class="rating" data-rating="5">⭐⭐⭐⭐⭐</div></td>
-                            <td><span class="cost affordable">按需付费</span></td>
-                            <td><div class="rating" data-rating="1">零门槛</div></td>
-                            <td><div class="rating" data-rating="4">⭐⭐⭐⭐</div></td>
-                            <td><div class="rating recommended" data-rating="5">⭐⭐⭐⭐⭐</div></td>
+                            <td data-i18n="comparison.methods.mirror">国内镜像直连</td>
+                            <td><span class="stars">⭐⭐⭐⭐⭐</span></td>
+                            <td>按需付费</td>
+                            <td data-i18n="comparison.technical_levels.mirror">零门槛</td>
+                            <td><span class="stars">⭐⭐⭐⭐</span></td>
+                            <td><span class="stars">⭐⭐⭐⭐⭐</span></td>
                         </tr>
                         <tr>
-                            <td>
-                                <div class="method-name">
-                                    <i class="fas fa-credit-card"></i>
-                                    官网付费订阅
-                                </div>
-                            </td>
-                            <td><div class="rating" data-rating="3">⭐⭐⭐</div></td>
-                            <td><span class="cost expensive">20美元/月</span></td>
-                            <td><div class="rating" data-rating="3">需科学上网</div></td>
-                            <td><div class="rating" data-rating="5">⭐⭐⭐⭐⭐</div></td>
-                            <td><div class="rating" data-rating="4">⭐⭐⭐⭐</div></td>
+                            <td data-i18n="comparison.methods.api">中转API调用</td>
+                            <td><span class="stars">⭐⭐⭐</span></td>
+                            <td>按量计费</td>
+                            <td data-i18n="comparison.technical_levels.api">需开发知识</td>
+                            <td><span class="stars">⭐⭐⭐</span></td>
+                            <td><span class="stars">⭐⭐⭐⭐</span></td>
+                        </tr>
+                        <tr class="highlight">
+                            <td data-i18n="comparison.methods.education">教育邮箱免费</td>
+                            <td><span class="stars">⭐⭐</span></td>
+                            <td>免费15个月</td>
+                            <td data-i18n="comparison.technical_levels.education">需特定条件</td>
+                            <td><span class="stars">⭐⭐⭐⭐⭐</span></td>
+                            <td><span class="stars">⭐⭐⭐⭐⭐</span></td>
                         </tr>
                         <tr>
-                            <td>
-                                <div class="method-name">
-                                    <i class="fas fa-code"></i>
-                                    中转API调用
-                                </div>
-                            </td>
-                            <td><div class="rating" data-rating="3">⭐⭐⭐</div></td>
-                            <td><span class="cost affordable">按量计费</span></td>
-                            <td><div class="rating" data-rating="4">需开发知识</div></td>
-                            <td><div class="rating" data-rating="3">⭐⭐⭐</div></td>
-                            <td><div class="rating" data-rating="4">⭐⭐⭐⭐</div></td>
-                        </tr>
-                        <tr class="disabled">
-                            <td>
-                                <div class="method-name">
-                                    <i class="fas fa-times-circle"></i>
-                                    Google AI Studio
-                                </div>
-                            </td>
-                            <td><div class="rating" data-rating="2">⭐⭐</div></td>
-                            <td><span class="cost disabled">暂时停用</span></td>
-                            <td><div class="rating" data-rating="3">需科学上网</div></td>
-                            <td><div class="rating" data-rating="3">⭐⭐⭐</div></td>
-                            <td><div class="rating" data-rating="1">⭐</div></td>
+                            <td data-i18n="comparison.methods.studio">Google AI Studio</td>
+                            <td><span class="stars">⭐⭐</span></td>
+                            <td>暂时停用</td>
+                            <td data-i18n="comparison.technical_levels.studio">需科学上网</td>
+                            <td><span class="stars">⭐⭐⭐</span></td>
+                            <td><span class="stars">⭐</span></td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- 详细方案 -->
-    <section id="methods" class="methods">
-        <div class="container">
-            <div class="section-header">
-                <h2>详细使用方案</h2>
-                <p>每种方案的详细介绍和使用指南</p>
-            </div>
-
-            <div class="methods-grid">
-                <!-- 方案一：教育邮箱 -->
-                <div class="method-card featured">
-                    <div class="method-header">
-                        <div class="method-icon">
-                            <i class="fas fa-graduation-cap"></i>
-                        </div>
-                        <div class="method-title">
-                            <h3>🎯 教育邮箱专享福利</h3>
-                            <span class="method-subtitle">性价比之王</span>
-                        </div>
-                        <div class="method-badge">推荐</div>
-                    </div>
-                    
-                    <div class="method-content">
-                        <div class="method-description">
-                            <p><strong>适用人群：</strong>持有美国教育邮箱的用户</p>
-                        </div>
-                        
-                        <div class="method-advantages">
-                            <h4>核心优势：</h4>
-                            <ul>
-                                <li>免费使用长达15个月</li>
-                                <li>功能与付费版完全一致</li>
-                                <li>官方正版保障</li>
-                            </ul>
-                        </div>
-
-                        <div class="method-requirements">
-                            <h4>申请条件：</h4>
-                            <ul>
-                                <li>拥有未开通过 Gemini Advanced 的谷歌账号</li>
-                                <li>持有美国 .edu 教育邮箱用于身份验证</li>
-                                <li>需绑定信用卡完成身份校验</li>
-                                <li>须在2025年6月30日前完成注册</li>
-                            </ul>
-                        </div>
-
-                        <div class="method-action">
-                            <a href="https://gemini.google/students" class="btn btn-primary" target="_blank">
-                                <i class="fas fa-external-link-alt"></i>
-                                官方入口
-                            </a>
-                            <p class="contact-info">
-                                有成品教育账号149使用长达15个月<br>
-                                如需要可添加微信客服：<strong>coder-maynor</strong>
-                            </p>
-                        </div>
-                    </div>
+        <section class="solutions">
+            <h2 data-i18n="solutions.title">方案详解</h2>
+            
+            <div class="solution-card featured">
+                <div class="solution-header">
+                    <h3 data-i18n="solutions.solution1.title">🎯 方案一：教育邮箱专享福利（性价比之王）</h3>
+                    <span class="badge" data-i18n="solutions.solution1.badge">推荐</span>
                 </div>
-
-                <!-- 方案二：国内镜像 -->
-                <div class="method-card featured">
-                    <div class="method-header">
-                        <div class="method-icon">
-                            <i class="fas fa-globe"></i>
-                        </div>
-                        <div class="method-title">
-                            <h3>🚀 国内镜像站点</h3>
-                            <span class="method-subtitle">最便捷选择</span>
-                        </div>
-                        <div class="method-badge">热门</div>
+                <div class="solution-content">
+                    <div class="target-audience">
+                        <strong data-i18n="ui.targetAudience">适用人群：</strong><span data-i18n="solutions.solution1.targetAudience">持有美国教育邮箱的用户</span>
                     </div>
-                    
-                    <div class="method-content">
-                        <div class="method-description">
-                            <p><strong>适用人群：</strong>追求便利性的普通用户</p>
-                        </div>
-                        
-                        <div class="method-advantages">
-                            <h4>核心优势：</h4>
-                            <ul>
-                                <li>无需科学上网工具</li>
-                                <li>无需谷歌账号注册</li>
-                                <li>无需信用卡绑定</li>
-                                <li>集成多款主流AI模型</li>
-                            </ul>
-                        </div>
-
-                        <div class="method-features">
-                            <h4>特色功能：</h4>
-                            <p>除 Gemini 2.5 Pro 外，还可同时体验其他顶级AI模型（ChatGPT4o、Claude 3.5 Sonnet、GPT4.1、DeepSeek R1等），一站式AI体验平台。</p>
-                        </div>
-
-                        <div class="method-action">
-                            <a href="https://agi.maynor1024.live/list/#/" class="btn btn-primary" target="_blank">
-                                <i class="fas fa-rocket"></i>
-                                立即体验
-                            </a>
-                        </div>
+                    <div class="advantages">
+                        <h4 data-i18n="solutions.solution1.advantages.title">核心优势：</h4>
+                        <ul>
+                            <li data-i18n="solutions.solution1.advantages.items.0">免费使用长达15个月</li>
+                            <li data-i18n="solutions.solution1.advantages.items.1">功能与付费版完全一致</li>
+                            <li data-i18n="solutions.solution1.advantages.items.2">官方正版保障</li>
+                        </ul>
                     </div>
-                </div>
-
-                <!-- 方案三：官网订阅 -->
-                <div class="method-card">
-                    <div class="method-header">
-                        <div class="method-icon">
-                            <i class="fas fa-credit-card"></i>
-                        </div>
-                        <div class="method-title">
-                            <h3>💰 官网订阅服务</h3>
-                            <span class="method-subtitle">原生体验</span>
-                        </div>
-                    </div>
-                    
-                    <div class="method-content">
-                        <div class="method-description">
-                            <p><strong>适用人群：</strong>追求原生体验的深度用户</p>
-                        </div>
-                        
-                        <div class="method-pricing">
-                            <h4>服务详情：</h4>
-                            <ul>
-                                <li>月费：20美元</li>
-                                <li>新用户享受首月免费试用</li>
-                                <li>功能最完整，更新最及时</li>
-                            </ul>
-                        </div>
-
-                        <div class="method-requirements">
-                            <h4>使用要求：</h4>
-                            <ul>
-                                <li>稳定的科学上网环境</li>
-                                <li>有效的谷歌账号</li>
-                                <li>国际信用卡支持</li>
-                            </ul>
-                        </div>
-
-                        <div class="method-action">
-                            <a href="https://gemini.google.com/app" class="btn btn-secondary" target="_blank">
-                                <i class="fas fa-external-link-alt"></i>
-                                官方地址
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 方案四：中转API -->
-                <div class="method-card">
-                    <div class="method-header">
-                        <div class="method-icon">
-                            <i class="fas fa-code"></i>
-                        </div>
-                        <div class="method-title">
-                            <h3>🔧 中转API服务</h3>
-                            <span class="method-subtitle">开发者首选</span>
-                        </div>
-                    </div>
-                    
-                    <div class="method-content">
-                        <div class="method-description">
-                            <p><strong>适用人群：</strong>开发者、技术集成需求用户</p>
-                        </div>
-                        
-                        <div class="method-features">
-                            <h4>服务特点：</h4>
-                            <ul>
-                                <li>按实际使用量计费</li>
-                                <li>账户余额永不过期</li>
-                                <li>支持程序化调用</li>
-                                <li>适合轻量级使用场景</li>
-                            </ul>
-                        </div>
-
-                        <div class="method-advantages">
-                            <h4>技术优势：</h4>
-                            <ul>
-                                <li>灵活的API接口</li>
-                                <li>支持自定义集成</li>
-                                <li>成本可控</li>
-                            </ul>
-                        </div>
-
-                        <div class="method-action">
-                            <a href="https://apipro.maynor1024.live/" class="btn btn-secondary" target="_blank">
-                                <i class="fas fa-code"></i>
-                                服务地址
-                            </a>
-                            <p class="note">注意：部分高级功能可能在API版本中受限</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 方案五：AI Studio（已暂停） -->
-                <div class="method-card disabled">
-                    <div class="method-header">
-                        <div class="method-icon">
-                            <i class="fas fa-times-circle"></i>
-                        </div>
-                        <div class="method-title">
-                            <h3>❌ Google AI Studio</h3>
-                            <span class="method-subtitle">已暂停</span>
-                        </div>
-                        <div class="method-badge disabled">停用</div>
-                    </div>
-                    
-                    <div class="method-content">
-                        <div class="method-status">
-                            <p><strong>当前状态：</strong>由于免费额度过高导致用户量激增，官方已暂时关闭 Gemini 2.5 Pro API 的免费层级，以保证付费用户的使用体验。</p>
-                        </div>
-
-                        <div class="method-history">
-                            <h4>历史服务：</h4>
-                            <ul>
-                                <li>曾提供免费API调用</li>
-                                <li>支持开发者灵活使用</li>
-                                <li>无使用时间限制</li>
-                            </ul>
-                        </div>
-
-                        <div class="method-action">
-                            <p class="note">建议关注官方动态，等待免费服务重新开放</p>
-                        </div>
+                    <div class="action-buttons">
+                        <a href="https://gemini.google/students" class="btn btn-primary" target="_blank" data-i18n="solutions.solution1.actionButton">官方入口</a>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- 选择建议 -->
-    <section id="recommendation" class="recommendation">
-        <div class="container">
-            <div class="section-header">
-                <h2>选择建议</h2>
-                <p>根据您的需求选择最适合的方案</p>
+            <div class="solution-card featured">
+                <div class="solution-header">
+                    <h3 data-i18n="solutions.solution2.title">🚀 方案二：国内镜像站点（最便捷选择）</h3>
+                    <span class="badge" data-i18n="solutions.solution2.badge">热门</span>
+                </div>
+                <div class="solution-content">
+                    <div class="target-audience">
+                        <strong data-i18n="ui.targetAudience">适用人群：</strong><span data-i18n="solutions.solution2.targetAudience">追求便利性的普通用户</span>
+                    </div>
+                    <div class="advantages">
+                        <h4 data-i18n="solutions.solution2.advantages.title">核心优势：</h4>
+                        <ul>
+                            <li data-i18n="solutions.solution2.advantages.items.0">无需科学上网工具</li>
+                            <li data-i18n="solutions.solution2.advantages.items.1">无需谷歌账号注册</li>
+                            <li data-i18n="solutions.solution2.advantages.items.2">无需信用卡绑定</li>
+                            <li data-i18n="solutions.solution2.advantages.items.3">集成多款主流AI模型</li>
+                        </ul>
+                    </div>
+                    <div class="action-buttons">
+                        <a href="#" class="btn btn-primary" target="_blank" data-i18n="solutions.solution2.actionButton">立即使用</a>
+                    </div>
+                </div>
             </div>
+        </section>
 
+        <section class="recommendations">
+            <h2 data-i18n="recommendations.title">选择建议</h2>
             <div class="recommendation-grid">
                 <div class="recommendation-card">
-                    <div class="recommendation-icon">
-                        <i class="fas fa-user-graduate"></i>
-                    </div>
-                    <h3>🎓 学生用户</h3>
-                    <p>如果您有美国教育邮箱，毫不犹豫选择教育免费方案，15个月免费期足够长期使用。</p>
+                    <div class="recommendation-icon">🎓</div>
+                    <h3 data-i18n="recommendations.student.title">学生用户</h3>
+                    <p data-i18n="recommendations.student.content">如果你有美国教育邮箱，毫不犹豫选择教育免费方案，15个月免费期足够长期使用。</p>
                 </div>
-
                 <div class="recommendation-card">
-                    <div class="recommendation-icon">
-                        <i class="fas fa-building"></i>
-                    </div>
-                    <h3>🏢 商务用户</h3>
-                    <p>追求稳定可靠的服务，建议选择官网付费订阅，新用户还能享受首月免费。</p>
+                    <div class="recommendation-icon">🏢</div>
+                    <h3 data-i18n="recommendations.business.title">商务用户</h3>
+                    <p data-i18n="recommendations.business.content">追求稳定可靠的服务，建议选择官网付费订阅，新用户还能享受首月免费。</p>
                 </div>
-
                 <div class="recommendation-card">
-                    <div class="recommendation-icon">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <h3>🛠️ 开发者</h3>
-                    <p>需要API集成的技术用户，推荐中转API服务，按量付费更经济。</p>
+                    <div class="recommendation-icon">🛠️</div>
+                    <h3 data-i18n="recommendations.developer.title">开发者</h3>
+                    <p data-i18n="recommendations.developer.content">需要API集成的技术用户，推荐中转API服务，按量付费更经济。</p>
                 </div>
-
                 <div class="recommendation-card">
-                    <div class="recommendation-icon">
-                        <i class="fas fa-users"></i>
-                    </div>
-                    <h3>🌟 普通用户</h3>
-                    <p>不想折腾各种设置，直接使用国内镜像站点最为便捷，还能同时体验多款AI模型。</p>
-                </div>
-
-                <div class="recommendation-card">
-                    <div class="recommendation-icon">
-                        <i class="fas fa-lightbulb"></i>
-                    </div>
-                    <h3>💡 尝鲜用户</h3>
-                    <p>想要快速体验的用户，国内镜像站点是最快的入门方式，无任何门槛限制。</p>
+                    <div class="recommendation-icon">🌟</div>
+                    <h3 data-i18n="recommendations.general.title">普通用户</h3>
+                    <p data-i18n="recommendations.general.content">不想折腾各种设置，直接使用国内镜像站点最为便捷，还能同时体验多款AI模型。</p>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- 页脚 -->
-    <footer class="footer">
-        <div class="container">
+        <section class="summary">
+            <div class="summary-content">
+                <h2 data-i18n="summary.title">总结</h2>
+                <p data-i18n="summary.content">Gemini 2.5 Pro 凭借出色的推理能力成为当前AI领域的佼佼者。五种使用方案各有特色，用户可根据自身需求、技术水平和预算选择最适合的方案。</p>
+            </div>
+        </section>
+
+        <footer class="footer">
             <div class="footer-content">
-                <div class="footer-info">
-                    <div class="footer-logo">
-                        <i class="fas fa-robot"></i>
-                        <span>Gemini 指南</span>
-                    </div>
-                    <p>帮助您选择最适合的 Gemini 2.5 Pro 使用方案</p>
-                </div>
-                <div class="footer-stats">
-                    <div class="stat">
-                        <span class="stat-number" id="visitorCount">1,234</span>
-                        <span class="stat-label">访问量</span>
-                    </div>
-                    <div class="stat">
-                        <span class="stat-number">5</span>
-                        <span class="stat-label">使用方案</span>
-                    </div>
-                    <div class="stat">
-                        <span class="stat-number" id="lastUpdate">今日</span>
-                        <span class="stat-label">最后更新</span>
-                    </div>
-                </div>
+                <p data-i18n="footer.copyright">&copy; 2025 Gemini2.5Pro. 最后更新：<span id="footerUpdate">2025-08-02</span></p>
+                <p data-i18n="footer.updateNote">本指南持续更新，为您提供最新的AI使用方案</p>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Gemini 使用指南. 本站内容仅供参考，请遵守相关服务条款。</p>
-            </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
 
-    <script src="script.js"></script>
     <script src="js/i18n.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
