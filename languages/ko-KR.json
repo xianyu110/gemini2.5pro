@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "title": "Gemini 2.5 Pro 중국 내 사용 완전 가이드",
+    "description": "Gemini 2.5 Pro 중국 내 사용 완전 가이드, 5가지 주요 방법 비교, 다국어 전환 지원"
+  },
+  "header": {
+    "title": "Gemini 2.5 Pro 중국 내 사용 완전 가이드", 
+    "subtitle": "5가지 주요 방법 비교 · 최종 업데이트: ",
+    "heroImage": "🧠 AI 어시스턴트 가이드"
+  },
+  "intro": {
+    "content": "구글이 최신 출시한 Gemini 2.5 Pro (I/O edition, 코드명 0605)는 프로그래밍, 초장문 맥락, 수학 추론, 연구 논문 분석, 이미지 인식 등 분야에서 뛰어난 성능을 보이며, 0325 버전 대비 현저한 개선을 이루었고, 평균 응답 시간을 70초 이내로 제어하여 추론과 창의력을 겸비한 강력한 AI 도구입니다."
+  },
+  "comparison": {
+    "title": "방법 비교 일람표",
+    "headers": {
+      "method": "사용 방법",
+      "convenience": "편의성", 
+      "cost": "비용 투입",
+      "technical": "기술적 진입장벽",
+      "completeness": "기능 완성도",
+      "recommendation": "추천 지수"
+    },
+    "methods": {
+      "official": "공식 유료 구독",
+      "mirror": "국내 미러 직접 연결", 
+      "api": "중계 API 호출",
+      "education": "교육 이메일 무료",
+      "studio": "Google AI Studio"
+    }
+  },
+  "solutions": {
+    "title": "방법 상세 설명",
+    "solution1": {
+      "title": "🎯 방법 1: 교육 이메일 전용 혜택 (가성비 왕)",
+      "badge": "추천",
+      "targetAudience": "미국 교육 이메일을 보유한 사용자",
+      "advantages": {
+        "title": "핵심 장점:",
+        "items": [
+          "최대 15개월 무료 사용",
+          "유료 버전과 완전히 동일한 기능", 
+          "공식 정품 보장"
+        ]
+      },
+      "actionButton": "공식 입구"
+    },
+    "solution2": {
+      "title": "🚀 방법 2: 국내 미러 사이트 (가장 편리한 선택)",
+      "badge": "인기",
+      "targetAudience": "편의성을 추구하는 일반 사용자",
+      "advantages": {
+        "title": "핵심 장점:",
+        "items": [
+          "VPN 도구 불필요",
+          "구글 계정 등록 불필요",
+          "신용카드 연결 불필요",
+          "다수 주류 AI 모델 통합"
+        ]
+      },
+      "actionButton": "지금 사용하기"
+    }
+  },
+  "recommendations": {
+    "title": "선택 권장사항",
+    "student": {
+      "title": "학생 사용자",
+      "content": "미국 교육 이메일이 있다면 주저 없이 교육 무료 방안을 선택하세요. 15개월 무료 기간으로 장기 사용에 충분합니다."
+    },
+    "business": {
+      "title": "비즈니스 사용자", 
+      "content": "안정적이고 신뢰할 수 있는 서비스를 추구한다면 공식 유료 구독을 권장하며, 신규 사용자는 첫 달 무료도 누릴 수 있습니다."
+    },
+    "developer": {
+      "title": "개발자",
+      "content": "API 통합이 필요한 기술 사용자에게는 중계 API 서비스를 추천하며, 사용량 기반 결제로 더 경제적입니다."
+    },
+    "general": {
+      "title": "일반 사용자",
+      "content": "각종 설정에 신경 쓰고 싶지 않다면 국내 미러 사이트를 직접 사용하는 것이 가장 편리하며, 동시에 여러 AI 모델을 체험할 수 있습니다."
+    }
+  },
+  "summary": {
+    "title": "요약",
+    "content": "Gemini 2.5 Pro는 뛰어난 추론 능력으로 현재 AI 분야의 선두주자가 되었습니다. 5가지 사용 방법은 각각의 특색이 있으며, 사용자는 자신의 니즈, 기술 수준, 예산에 따라 가장 적합한 방법을 선택할 수 있습니다."
+  },
+  "footer": {
+    "copyright": "&copy; 2025 Gemini2.5Pro. 최종 업데이트: ",
+    "updateNote": "본 가이드는 지속적으로 업데이트되어 최신 AI 사용 방안을 제공합니다"
+  },
+  "ui": {
+    "languageSelector": "언어 선택",
+    "targetAudience": "대상 사용자: ",
+    "getStarted": "지금 시작",
+    "learnMore": "더 알아보기"
+  }
+}

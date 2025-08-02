@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "title": "Guía Completa para Usar Gemini 2.5 Pro en China",
+    "description": "Guía completa para usar Gemini 2.5 Pro en China, comparación de 5 métodos principales, soporte de cambio multiidioma"
+  },
+  "header": {
+    "title": "Guía Completa para Usar Gemini 2.5 Pro en China", 
+    "subtitle": "Comparación de 5 métodos principales · Última actualización: ",
+    "heroImage": "🧠 Guía del Asistente AI"
+  },
+  "intro": {
+    "content": "El último Gemini 2.5 Pro de Google (edición I/O, nombre en clave 0605) destaca en programación, contexto ultra-largo, razonamiento matemático, análisis de papers de investigación y reconocimiento de imágenes. Comparado con la versión 0325, muestra mejoras significativas con tiempo de respuesta promedio controlado dentro de 70 segundos, siendo una herramienta de AI poderosa que combina razonamiento y creatividad."
+  },
+  "comparison": {
+    "title": "Tabla de Comparación de Métodos",
+    "headers": {
+      "method": "Método de Uso",
+      "convenience": "Conveniencia", 
+      "cost": "Inversión de Costo",
+      "technical": "Barrera Técnica",
+      "completeness": "Completitud de Funciones",
+      "recommendation": "Índice de Recomendación"
+    },
+    "methods": {
+      "official": "Suscripción Oficial de Pago",
+      "mirror": "Conexión Directa Mirror Doméstico", 
+      "api": "Llamada API de Retransmisión",
+      "education": "Email Educativo Gratis",
+      "studio": "Google AI Studio"
+    }
+  },
+  "solutions": {
+    "title": "Explicación Detallada de Métodos",
+    "solution1": {
+      "title": "🎯 Método 1: Beneficios Exclusivos de Email Educativo (Rey de Valor)",
+      "badge": "Recomendado",
+      "targetAudience": "Usuarios con email educativo de EE.UU.",
+      "advantages": {
+        "title": "Ventajas Principales:",
+        "items": [
+          "Uso gratuito hasta por 15 meses",
+          "Mismas funciones que la versión de pago", 
+          "Garantía de producto genuino oficial"
+        ]
+      },
+      "actionButton": "Entrada Oficial"
+    },
+    "solution2": {
+      "title": "🚀 Método 2: Sitios Mirror Domésticos (Opción Más Conveniente)",
+      "badge": "Popular",
+      "targetAudience": "Usuarios generales que buscan conveniencia",
+      "advantages": {
+        "title": "Ventajas Principales:",
+        "items": [
+          "No requiere herramientas VPN",
+          "No necesita registro de cuenta Google",
+          "No requiere vinculación de tarjeta de crédito",
+          "Integra múltiples modelos AI principales"
+        ]
+      },
+      "actionButton": "Usar Ahora"
+    }
+  },
+  "recommendations": {
+    "title": "Recomendaciones de Selección",
+    "student": {
+      "title": "Usuarios Estudiantes",
+      "content": "Si tienes un email educativo de EE.UU., elige el plan educativo gratuito sin dudas. El período gratuito de 15 meses es suficiente para uso a largo plazo."
+    },
+    "business": {
+      "title": "Usuarios Empresariales", 
+      "content": "Para servicio estable y confiable, se recomienda elegir la suscripción oficial de pago, los nuevos usuarios también pueden disfrutar del primer mes gratis."
+    },
+    "developer": {
+      "title": "Desarrolladores",
+      "content": "Para usuarios técnicos que necesitan integración API, recomendamos el servicio API de retransmisión, el pago por uso es más económico."
+    },
+    "general": {
+      "title": "Usuarios Generales",
+      "content": "Si no quieres lidiar con varias configuraciones, usar sitios mirror domésticos directamente es lo más conveniente, y puedes experimentar múltiples modelos AI simultáneamente."
+    }
+  },
+  "summary": {
+    "title": "Resumen",
+    "content": "Gemini 2.5 Pro se ha convertido en líder en el campo AI con sus excelentes capacidades de razonamiento. Los cinco métodos de uso tienen cada uno sus características, y los usuarios pueden elegir el método más adecuado basado en sus necesidades, nivel técnico y presupuesto."
+  },
+  "footer": {
+    "copyright": "&copy; 2025 Gemini2.5Pro. Última actualización: ",
+    "updateNote": "Esta guía se actualiza continuamente para proporcionar las últimas soluciones de uso de AI"
+  },
+  "ui": {
+    "languageSelector": "Seleccionar Idioma",
+    "targetAudience": "Audiencia Objetivo: ",
+    "getStarted": "Comenzar Ahora",
+    "learnMore": "Saber Más"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "title": "Gemini 2.5 Pro 中国使用完全ガイド",
+    "description": "Gemini 2.5 Pro 中国使用完全ガイド、5つの主要方法の比較、多言語切り替えサポート"
+  },
+  "header": {
+    "title": "Gemini 2.5 Pro 中国使用完全ガイド", 
+    "subtitle": "5つの主要方法の比較 · 最終更新：",
+    "heroImage": "🧠 AIアシスタントガイド"
+  },
+  "intro": {
+    "content": "Googleが最新リリースしたGemini 2.5 Pro（I/O edition、コードネーム0605）は、プログラミング、超長コンテキスト、数学推論、研究論文解析、画像認識等の分野で優秀な性能を発揮し、0325バージョンと比較して大幅な改善があり、平均応答時間は70秒以内に制御され、推論と創造性を兼ね備えた強力なAIツールです。"
+  },
+  "comparison": {
+    "title": "方法比較一覧表",
+    "headers": {
+      "method": "使用方法",
+      "convenience": "便利さ", 
+      "cost": "コスト投入",
+      "technical": "技術的ハードル",
+      "completeness": "機能完全性",
+      "recommendation": "推奨度"
+    },
+    "methods": {
+      "official": "公式有料サブスクリプション",
+      "mirror": "国内ミラー直接接続", 
+      "api": "中継API呼び出し",
+      "education": "教育メール無料",
+      "studio": "Google AI Studio"
+    }
+  },
+  "solutions": {
+    "title": "方法詳細解説",
+    "solution1": {
+      "title": "🎯 方法1：教育メール専用特典（コスパ王者）",
+      "badge": "推奨",
+      "targetAudience": "米国教育メールを持つユーザー",
+      "advantages": {
+        "title": "核心的優位性：",
+        "items": [
+          "最大15ヶ月無料使用",
+          "有料版と完全に同じ機能", 
+          "公式正規品保証"
+        ]
+      },
+      "actionButton": "公式入口"
+    },
+    "solution2": {
+      "title": "🚀 方法2：国内ミラーサイト（最も便利な選択）",
+      "badge": "人気",
+      "targetAudience": "便利性を追求する一般ユーザー",
+      "advantages": {
+        "title": "核心的優位性：",
+        "items": [
+          "VPNツール不要",
+          "Googleアカウント登録不要",
+          "クレジットカード連携不要",
+          "複数の主流AIモデル統合"
+        ]
+      },
+      "actionButton": "今すぐ使用"
+    }
+  },
+  "recommendations": {
+    "title": "選択推奨",
+    "student": {
+      "title": "学生ユーザー",
+      "content": "米国教育メールをお持ちの場合は、迷わず教育無料プランを選択してください。15ヶ月の無料期間は長期利用に十分です。"
+    },
+    "business": {
+      "title": "ビジネスユーザー", 
+      "content": "安定で信頼できるサービスを追求する場合は、公式有料サブスクリプションを推奨します。新規ユーザーは初月無料も享受できます。"
+    },
+    "developer": {
+      "title": "開発者",
+      "content": "API統合が必要な技術ユーザーには、中継APIサービスを推奨します。従量課金でより経済的です。"
+    },
+    "general": {
+      "title": "一般ユーザー",
+      "content": "様々な設定に悩みたくない場合は、国内ミラーサイトを直接利用するのが最も便利で、複数のAIモデルを同時に体験できます。"
+    }
+  },
+  "summary": {
+    "title": "まとめ",
+    "content": "Gemini 2.5 Proは優秀な推論能力により現在のAI分野のトップランナーとなっています。5つの使用方法にはそれぞれ特色があり、ユーザーは自身のニーズ、技術レベル、予算に応じて最適な方法を選択できます。"
+  },
+  "footer": {
+    "copyright": "&copy; 2025 Gemini2.5Pro. 最終更新：",
+    "updateNote": "本ガイドは継続的に更新され、最新のAI使用ソリューションを提供します"
+  },
+  "ui": {
+    "languageSelector": "言語選択",
+    "targetAudience": "対象ユーザー：",
+    "getStarted": "今すぐ開始",
+    "learnMore": "詳細を見る"
+  }
+}
