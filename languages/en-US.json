@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "title": "Complete Guide to Using Gemini 2.5 Pro in China",
+    "description": "Complete guide to using Gemini 2.5 Pro in China, comparison of 5 mainstream methods with multi-language support"
+  },
+  "header": {
+    "title": "Complete Guide to Using Gemini 2.5 Pro in China",
+    "subtitle": "Comparison of 5 mainstream methods · Last updated: ",
+    "heroImage": "🧠 AI Assistant Guide"
+  },
+  "intro": {
+    "content": "Google's latest Gemini 2.5 Pro (I/O edition, codename 0605) excels in programming, ultra-long context, mathematical reasoning, research paper analysis, and image recognition. Compared to the 0325 version, it shows significant improvements with average response time controlled within 70 seconds, making it a powerful AI tool that combines reasoning and creativity."
+  },
+  "comparison": {
+    "title": "Method Comparison Table",
+    "headers": {
+      "method": "Usage Method",
+      "convenience": "Convenience",
+      "cost": "Cost", 
+      "technical": "Technical Barrier",
+      "completeness": "Feature Completeness",
+      "recommendation": "Recommendation"
+    },
+    "methods": {
+      "official": "Official Subscription",
+      "mirror": "Domestic Mirror",
+      "api": "Relay API Service", 
+      "education": "Educational Email Free",
+      "studio": "Google AI Studio"
+    }
+  },
+  "solutions": {
+    "title": "Detailed Solutions",
+    "solution1": {
+      "title": "🎯 Solution 1: Educational Email Exclusive Benefits (Best Value)",
+      "badge": "Recommended",
+      "targetAudience": "Users with US educational email",
+      "advantages": {
+        "title": "Core Advantages:",
+        "items": [
+          "Free for up to 15 months",
+          "Same features as paid version",
+          "Official genuine guarantee"
+        ]
+      },
+      "actionButton": "Official Entry"
+    },
+    "solution2": {
+      "title": "🚀 Solution 2: Domestic Mirror Sites (Most Convenient)",
+      "badge": "Popular", 
+      "targetAudience": "General users seeking convenience",
+      "advantages": {
+        "title": "Core Advantages:",
+        "items": [
+          "No VPN tools required",
+          "No Google account registration needed",
+          "No credit card binding required",
+          "Integrated multiple mainstream AI models"
+        ]
+      },
+      "actionButton": "Use Now"
+    }
+  },
+  "recommendations": {
+    "title": "Selection Recommendations",
+    "student": {
+      "title": "Student Users",
+      "content": "If you have a US educational email, choose the educational free plan without hesitation. The 15-month free period is sufficient for long-term use."
+    },
+    "business": {
+      "title": "Business Users",
+      "content": "For stable and reliable service, choose official subscription. New users can also enjoy the first month free."
+    },
+    "developer": {
+      "title": "Developers", 
+      "content": "For technical users needing API integration, we recommend relay API service with pay-as-you-go pricing for better economics."
+    },
+    "general": {
+      "title": "General Users",
+      "content": "If you don't want to deal with various settings, using domestic mirror sites is most convenient, and you can experience multiple AI models simultaneously."
+    }
+  },
+  "summary": {
+    "title": "Summary",
+    "content": "Gemini 2.5 Pro has become a leader in the AI field with its excellent reasoning capabilities. The five usage methods each have their characteristics, and users can choose the most suitable method based on their needs, technical level, and budget."
+  },
+  "footer": {
+    "copyright": "&copy; 2025 Gemini2.5Pro. Last updated: ",
+    "updateNote": "This guide is continuously updated to provide you with the latest AI usage solutions"
+  },
+  "ui": {
+    "languageSelector": "Select Language",
+    "targetAudience": "Target Audience: ",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More"
+  }
+}

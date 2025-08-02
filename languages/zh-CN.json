@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "title": "Gemini 2.5 Pro 国内使用完全指南",
+    "description": "Gemini 2.5 Pro 国内使用完全指南，五大主流方案对比，支持多语言切换"
+  },
+  "header": {
+    "title": "Gemini 2.5 Pro 国内使用完全指南", 
+    "subtitle": "五大主流方案对比 · 最新更新时间：",
+    "heroImage": "🧠 AI 助手指南"
+  },
+  "intro": {
+    "content": "谷歌最新发布的 Gemini 2.5 Pro (I/O edition，代号 0605) 在编程、超长上下文、数学推理、科研论文解析、图像识别等方面表现突出，相比 0325 版本有显著提升，平均响应时间控制在 70 秒以内，是推理与创造力并存的强大 AI 工具。"
+  },
+  "comparison": {
+    "title": "方案对比一览表",
+    "headers": {
+      "method": "使用方式",
+      "convenience": "便利程度", 
+      "cost": "成本投入",
+      "technical": "技术门槛",
+      "completeness": "功能完整度",
+      "recommendation": "推荐指数"
+    },
+    "methods": {
+      "official": "官网付费订阅",
+      "mirror": "国内镜像直连", 
+      "api": "中转API调用",
+      "education": "教育邮箱免费",
+      "studio": "Google AI Studio"
+    }
+  },
+  "solutions": {
+    "title": "方案详解",
+    "solution1": {
+      "title": "🎯 方案一：教育邮箱专享福利（性价比之王）",
+      "badge": "推荐",
+      "targetAudience": "持有美国教育邮箱的用户",
+      "advantages": {
+        "title": "核心优势：",
+        "items": [
+          "免费使用长达15个月",
+          "功能与付费版完全一致", 
+          "官方正版保障"
+        ]
+      },
+      "actionButton": "官方入口"
+    },
+    "solution2": {
+      "title": "🚀 方案二：国内镜像站点（最便捷选择）",
+      "badge": "热门",
+      "targetAudience": "追求便利性的普通用户",
+      "advantages": {
+        "title": "核心优势：",
+        "items": [
+          "无需科学上网工具",
+          "无需谷歌账号注册",
+          "无需信用卡绑定",
+          "集成多款主流AI模型"
+        ]
+      },
+      "actionButton": "立即使用"
+    }
+  },
+  "recommendations": {
+    "title": "选择建议",
+    "student": {
+      "title": "学生用户",
+      "content": "如果你有美国教育邮箱，毫不犹豫选择教育免费方案，15个月免费期足够长期使用。"
+    },
+    "business": {
+      "title": "商务用户", 
+      "content": "追求稳定可靠的服务，建议选择官网付费订阅，新用户还能享受首月免费。"
+    },
+    "developer": {
+      "title": "开发者",
+      "content": "需要API集成的技术用户，推荐中转API服务，按量付费更经济。"
+    },
+    "general": {
+      "title": "普通用户",
+      "content": "不想折腾各种设置，直接使用国内镜像站点最为便捷，还能同时体验多款AI模型。"
+    }
+  },
+  "summary": {
+    "title": "总结",
+    "content": "Gemini 2.5 Pro 凭借出色的推理能力成为当前AI领域的佼佼者。五种使用方案各有特色，用户可根据自身需求、技术水平和预算选择最适合的方案。"
+  },
+  "footer": {
+    "copyright": "&copy; 2025 Gemini2.5Pro. 最后更新：",
+    "updateNote": "本指南持续更新，为您提供最新的AI使用方案"
+  },
+  "ui": {
+    "languageSelector": "选择语言",
+    "targetAudience": "适用人群：",
+    "getStarted": "立即开始",
+    "learnMore": "了解更多"
+  }
+}
