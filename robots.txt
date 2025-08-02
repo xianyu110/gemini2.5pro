@@ -1,0 +1,75 @@
+# robots.txt for Gemini 使用指南
+
+User-agent: *
+Allow: /
+
+# 主要页面
+Allow: /index.html
+Allow: /style.css
+Allow: /script.js
+
+# 静态资源
+Allow: /assets/
+Allow: /images/
+Allow: /icons/
+Allow: /fonts/
+
+# 禁止访问的目录
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /.cache/
+Disallow: /tmp/
+Disallow: /temp/
+Disallow: /logs/
+Disallow: /backup/
+
+# 禁止访问的文件
+Disallow: /*.log
+Disallow: /*.bak
+Disallow: /*.tmp
+Disallow: /.*
+
+# 网站地图
+Sitemap: https://your-username.github.io/gemini-guide/sitemap.xml
+
+# 爬取延迟（可选，单位：秒）
+Crawl-delay: 1
+
+# 特定搜索引擎的规则
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 2
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 1
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 2
+
+# 禁止的爬虫
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+# SEO说明
+# 本网站提供 Gemini 2.5 Pro 国内使用指南
+# 包含五种主流使用方案的详细对比和教程
+# 内容每日更新，确保信息准确性

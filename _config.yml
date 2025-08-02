@@ -1,0 +1,160 @@
+# GitHub Pages 配置文件
+
+# 站点信息
+title: "Gemini 2.5 Pro 国内使用完全指南"
+description: "提供 Gemini 2.5 Pro 国内使用的完整指南，包含五大主流方案对比和详细使用教程"
+author: "Gemini Guide"
+email: "contact@gemini-guide.com"
+
+# 站点设置
+url: "https://your-username.github.io"
+baseurl: "/gemini-guide"
+lang: "zh-CN"
+timezone: "Asia/Shanghai"
+
+# SEO 设置
+keywords: "Gemini, AI, 人工智能, 国内使用, 免费体验, 教程指南"
+image: "/assets/images/og-image.jpg"
+
+# 社交媒体
+social:
+  github: "your-username"
+  twitter: "your-twitter"
+
+# GitHub Pages 特定设置
+github:
+  repository_url: "https://github.com/your-username/gemini-guide"
+  repository_name: "gemini-guide"
+
+# 插件设置（GitHub Pages 支持的插件）
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# 构建设置
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# 包含和排除文件
+include:
+  - _pages
+  - _posts
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - .DS_Store
+
+# 静态文件处理
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      
+# 压缩设置
+sass:
+  style: compressed
+
+# 安全设置
+safe: true
+whitelist:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# 开发设置
+show_drafts: false
+future: false
+unpublished: false
+
+# 分页设置（如果需要博客功能）
+paginate: 10
+paginate_path: "/page:num/"
+
+# 集合设置（可扩展用于多页面）
+collections:
+  guides:
+    output: true
+    permalink: /:collection/:name/
+
+# 自定义变量
+version: "1.0.0"
+build_time: "2025-08-02"
+contact_email: "contact@gemini-guide.com"
+
+# 网站统计和分析（可选）
+google_analytics: "G-XXXXXXXXXX"  # 替换为您的 Google Analytics ID
+baidu_analytics: "xxxxxxxxxxxxxxxx"  # 可选：百度统计
+
+# 评论系统（可选）
+comments:
+  provider: false  # false (default), "disqus", "gitalk", "utterances"
+  
+# 搜索功能（可选）
+search:
+  enabled: true
+  provider: "simple"  # "simple", "algolia", "google"
+
+# 主题色彩配置
+theme_config:
+  primary_color: "#4285f4"
+  secondary_color: "#34a853"
+  accent_color: "#fbbc04"
+  warning_color: "#ea4335"
+
+# 功能开关
+features:
+  toc: true              # 目录功能
+  back_to_top: true      # 返回顶部
+  reading_time: false    # 阅读时间
+  last_modified: true    # 最后修改时间
+  print_styles: true     # 打印样式
+
+# 外部链接配置
+external_links:
+  gemini_official: "https://gemini.google.com/"
+  gemini_students: "https://gemini.google/students"
+  mirror_site: "https://agi.maynor1024.live/list/#/"
+  api_service: "https://apipro.maynor1024.live/"
+
+# 更新频率配置
+update_schedule:
+  frequency: "daily"
+  time: "08:00"
+  timezone: "Asia/Shanghai"
+
+# 网站地图配置
+sitemap:
+  enabled: true
+  changefreq: "daily"
+  priority: 0.8
+
+# RSS 配置
+feed:
+  enabled: true
+  title: "Gemini 使用指南更新"
+  description: "获取最新的 Gemini 使用指南和方案更新"
+
+# 多语言支持（未来扩展）
+languages:
+  zh-CN:
+    name: "简体中文"
+    flag: "🇨🇳"
+  en:
+    name: "English"
+    flag: "🇺🇸"

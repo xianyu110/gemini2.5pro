@@ -1,0 +1,7 @@
+# CNAME 文件示例
+# 如果您有自定义域名，请：
+# 1. 将此文件重命名为 CNAME（删除 .example 后缀）
+# 2. 将下面的域名替换为您的域名
+# 3. 在您的域名DNS设置中添加CNAME记录指向 your-username.github.io
+
+gemini-guide.yourdomain.com
