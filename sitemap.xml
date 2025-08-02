@@ -6,7 +6,7 @@
 
     <!-- 首页 -->
     <url>
-        <loc>https://your-username.github.io/gemini-guide/</loc>
+        <loc>https://xianyu110.github.io/gemini2.5pro/</loc>
         <lastmod>2025-08-02</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -14,21 +14,21 @@
 
     <!-- 主要页面锚点 -->
     <url>
-        <loc>https://your-username.github.io/gemini-guide/#comparison</loc>
+        <loc>https://xianyu110.github.io/gemini2.5pro/#comparison</loc>
         <lastmod>2025-08-02</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://your-username.github.io/gemini-guide/#methods</loc>
+        <loc>https://xianyu110.github.io/gemini2.5pro/#methods</loc>
         <lastmod>2025-08-02</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
 
     <url>
-        <loc>https://your-username.github.io/gemini-guide/#recommendation</loc>
+        <loc>https://xianyu110.github.io/gemini2.5pro/#recommendation</loc>
         <lastmod>2025-08-02</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -37,14 +37,14 @@
     <!-- 样式和脚本文件（可选，通常不包含在sitemap中） -->
     <!--
     <url>
-        <loc>https://your-username.github.io/gemini-guide/style.css</loc>
+        <loc>https://xianyu110.github.io/gemini2.5pro/style.css</loc>
         <lastmod>2025-08-02</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.3</priority>
     </url>
 
     <url>
-        <loc>https://your-username.github.io/gemini-guide/script.js</loc>
+        <loc>https://xianyu110.github.io/gemini2.5pro/script.js</loc>
         <lastmod>2025-08-02</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.3</priority>

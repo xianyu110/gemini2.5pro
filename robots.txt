@@ -30,7 +30,7 @@ Disallow: /*.tmp
 Disallow: /.*
 
 # 网站地图
-Sitemap: https://your-username.github.io/gemini-guide/sitemap.xml
+Sitemap: https://xianyu110.github.io/gemini2.5pro/sitemap.xml
 
 # 爬取延迟（可选，单位：秒）
 Crawl-delay: 1

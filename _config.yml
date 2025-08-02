@@ -7,8 +7,8 @@ author: "Gemini Guide"
 email: "contact@gemini-guide.com"
 
 # 站点设置
-url: "https://your-username.github.io"
-baseurl: "/gemini-guide"
+url: "https://xianyu110.github.io"
+baseurl: "/gemini2.5pro"
 lang: "zh-CN"
 timezone: "Asia/Shanghai"
 
@@ -23,8 +23,8 @@ social:
 
 # GitHub Pages 特定设置
 github:
-  repository_url: "https://github.com/your-username/gemini-guide"
-  repository_name: "gemini-guide"
+  repository_url: "https://github.com/xianyu110/gemini2.5pro"
+  repository_name: "gemini2.5pro"
 
 # 插件设置（GitHub Pages 支持的插件）
 plugins:
