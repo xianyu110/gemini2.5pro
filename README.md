@@ -1,208 +1,164 @@
-# Gemini 2.5 Pro 国内使用完全指南
+# **Gemini 2.5 Pro 国内使用完全指南：五大主流方案对比**
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue?style=flat-square&logo=github)](https://chinamanor.github.io/gemini-guide/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
-[![Update](https://img.shields.io/badge/Update-Daily-orange?style=flat-square)]()
+![首图](https://restname.oss-cn-hangzhou.aliyuncs.com/202506161840056.jpeg)
 
-> 🚀 一个精美的响应式网站，提供 Gemini 2.5 Pro 国内使用的完整指南，包含五大主流方案对比和详细使用教程。
-
-## 📖 项目简介
-
-Gemini 2.5 Pro 是谷歌最新发布的强大AI模型，在编程、推理、创造等方面表现卓越。本项目为国内用户提供完整的使用指南，帮助您选择最适合的体验方式。
-
-### ✨ 主要特性
-
-- 🎨 **精美设计**: 现代化响应式界面，支持多端访问
-- 📊 **方案对比**: 详细对比五种主流使用方案
-- 🔄 **实时更新**: 每日更新数据和服务状态
-- 📱 **移动优先**: 完美支持手机、平板等移动设备
-- ⚡ **性能优化**: 快速加载，流畅交互体验
-- 🔍 **SEO友好**: 优化搜索引擎收录和排名
-
-## 🎯 支持的使用方案
-
-| 方案 | 特点 | 适用人群 | 推荐指数 |
-|------|------|----------|----------|
-| 🎓 教育邮箱免费 | 免费15个月 | 学生用户 | ⭐⭐⭐⭐⭐ |
-| 🚀 国内镜像直连 | 零门槛使用 | 普通用户 | ⭐⭐⭐⭐⭐ |
-| 💰 官网付费订阅 | 官方原生体验 | 商务用户 | ⭐⭐⭐⭐ |
-| 🔧 中转API服务 | 按需付费 | 开发者 | ⭐⭐⭐⭐ |
-| ❌ Google AI Studio | 暂时停用 | - | ⭐ |
-
-## 🛠️ 技术栈
-
-- **前端**: HTML5, CSS3, Vanilla JavaScript
-- **样式**: CSS Grid, Flexbox, CSS Variables
-- **字体**: Inter Font Family
-- **图标**: Font Awesome 6
-- **动画**: CSS Animations, Intersection Observer API
-- **部署**: GitHub Pages
-
-## 🚀 快速开始
-
-### 在线访问
-
-直接访问 GitHub Pages 部署的网站：
-[https://your-username.github.io/gemini-guide/](https://your-username.github.io/gemini-guide/)
-
-### 本地开发
-
-1. **克隆仓库**
-   ```bash
-   git clone https://github.com/your-username/gemini-guide.git
-   cd gemini-guide
-   ```
-
-2. **启动本地服务器**
-   ```bash
-   # 使用 Python
-   python -m http.server 8080
-   
-   # 或使用 Node.js
-   npx serve .
-   
-   # 或使用 PHP
-   php -S localhost:8080
-   ```
-
-3. **访问网站**
-   打开浏览器访问 `http://localhost:8080`
-
-## 📁 项目结构
-
-```
-gemini国内使用指南/
-├── index.html          # 主页面
-├── style.css          # 样式文件
-├── script.js          # 脚本文件
-├── README.md          # 项目说明
-├── _config.yml        # GitHub Pages配置
-└── assets/            # 静态资源（如需要）
-    ├── images/
-    ├── icons/
-    └── fonts/
-```
-
-## 🎨 设计特性
-
-### 响应式设计
-- 移动端优先的设计理念
-- 适配各种屏幕尺寸
-- 流畅的触摸交互体验
-
-### 视觉效果
-- 现代化的渐变背景
-- 流畅的动画过渡
-- 悬浮卡片动效
-- 平滑滚动体验
-
-### 交互功能
-- 智能导航栏
-- 数据实时更新
-- 访客统计功能
-- 服务状态监控
-
-## 📊 功能模块
-
-### 1. 导航系统
-- 固定顶部导航
-- 移动端汉堡菜单
-- 平滑锚点跳转
-- 滚动响应式显示
-
-### 2. 数据管理
-- 每日自动更新
-- 访客计数统计
-- 服务状态检测
-- 本地数据缓存
-
-### 3. 用户体验
-- 快速加载优化
-- 错误处理机制
-- 离线状态提示
-- 键盘快捷键支持
-
-## 🔧 自定义配置
-
-### 更新数据源
-编辑 `script.js` 中的数据更新函数：
-```javascript
-function updateMethodAvailability() {
-    // 在这里添加您的数据源
-}
-```
-
-### 修改样式主题
-编辑 `style.css` 中的CSS变量：
-```css
-:root {
-    --primary-color: #4285f4;
-    --secondary-color: #34a853;
-    /* 更多自定义颜色 */
-}
-```
-
-### 添加新方案
-在 `index.html` 中添加新的方案卡片，并在 `script.js` 中添加对应的状态检测。
-
-## 📈 SEO优化
-
-- 语义化HTML标签
-- Meta标签优化
-- 结构化数据标记
-- 图片Alt属性
-- 页面性能优化
-
-## 🌐 浏览器支持
-
-- ✅ Chrome 90+
-- ✅ Firefox 88+
-- ✅ Safari 14+
-- ✅ Edge 90+
-- ✅ 移动端浏览器
-
-## 📱 PWA支持
-
-项目预留了PWA支持的基础结构，可以轻松扩展为：
-- 离线访问支持
-- 应用程序安装
-- 推送通知功能
-
-## 🤝 贡献指南
-
-欢迎提交Issue和Pull Request！
-
-1. Fork本仓库
-2. 创建特性分支 (`git checkout -b feature/amazing-feature`)
-3. 提交更改 (`git commit -m 'Add amazing feature'`)
-4. 推送到分支 (`git push origin feature/amazing-feature`)
-5. 创建Pull Request
-
-## 📝 更新日志
-
-### v1.0.0 (2025-08-02)
-- ✨ 初始版本发布
-- 📱 响应式设计实现
-- 🎨 五大方案详细介绍
-- 📊 数据实时更新功能
-- 🚀 GitHub Pages部署
-
-## 📄 许可证
-
-本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。
-
-## 🙏 致谢
-
-- [Font Awesome](https://fontawesome.com/) - 图标库
-- [Google Fonts](https://fonts.google.com/) - Inter字体
-- [GitHub Pages](https://pages.github.com/) - 免费托管服务
-
-## 📞 联系方式
-
-- 作者: 您的名字
-- 邮箱: your-email@example.com
-- GitHub: [@your-username](https://github.com/your-username)
+谷歌最新发布的 Gemini 2.5 Pro (I/O edition，代号 0605) 在编程、超长上下文、数学推理、科研论文解析、图像识别等方面表现突出，相比 0325 版本有显著提升，平均响应时间控制在 70 秒以内，是推理与创造力并存的强大 AI 工具。
 
 ---
 
-⭐ 如果这个项目对您有帮助，请给它一个星标！
+## **方案对比一览表**
+
+| 使用方式             | 便利程度  | 成本投入   | 技术门槛  | 功能完整度 | 推荐指数  |
+| ---------------- | ----- | ------ | ----- | ----- | ----- |
+| 官网付费订阅           | ⭐⭐⭐   | 20美元/月 | 需科学上网 | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐  |
+| 国内镜像直连           | ⭐⭐⭐⭐⭐ | 按需付费   | 零门槛   | ⭐⭐⭐⭐  | ⭐⭐⭐⭐⭐ |
+| 中转API调用          | ⭐⭐⭐   | 按量计费   | 需开发知识 | ⭐⭐⭐   | ⭐⭐⭐⭐  |
+| 教育邮箱免费           | ⭐⭐    | 免费15个月 | 需特定条件 | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
+| Google AI Studio | ⭐⭐    | 暂时停用   | 需科学上网 | ⭐⭐⭐   | ⭐     |
+
+---
+
+## **方案详解**
+
+### **🎯 方案一：教育邮箱专享福利（性价比之王）**
+
+![学生专属](https://restname.oss-cn-hangzhou.aliyuncs.com/202506161840042.jpeg)
+
+**适用人群**：持有美国教育邮箱的用户
+
+**核心优势**：
+
+* 免费使用长达15个月
+* 功能与付费版完全一致
+* 官方正版保障
+
+**申请条件**：
+
+1. 拥有未开通过 Gemini Advanced 的谷歌账号
+2. 持有美国 .edu 教育邮箱用于身份验证
+3. 需绑定信用卡完成身份校验
+4. 须在2025年6月30日前完成注册
+
+**官方入口**：[https://gemini.google/students](https://gemini.google/students)
+
+有成品教育账号149使用长达15个月，如果需要可添加微信客服：coder-maynor ，免费咨询。
+
+![](https://files.mdnice.com/user/21037/2bdc89d0-7537-413b-b6d5-1c159a306379.jpg)
+
+---
+
+### **🚀 方案二：国内镜像站点（最便捷选择）**
+
+![镜像站点截图](https://restname.oss-cn-hangzhou.aliyuncs.com/202506161840045.jpeg)
+
+**适用人群**：追求便利性的普通用户
+
+**核心优势**：
+
+* 无需科学上网工具
+* 无需谷歌账号注册
+* 无需信用卡绑定
+* 集成多款主流AI模型（ChatGPT4o、Claude 3.5 Sonnet、GPT4.1、DeepSeek R1等）
+
+**使用方式**：
+直接访问 [https://agi.maynor1024.live/list/#/](https://agi.maynor1024.live/list/#/) 即可开始使用
+
+**特色功能**：
+除 Gemini 2.5 Pro 外，还可同时体验其他顶级AI模型，一站式AI体验平台。
+
+---
+
+### **💰 方案三：官网订阅服务（原生体验）**
+
+![官方网站](https://restname.oss-cn-hangzhou.aliyuncs.com/202506161840027.jpeg)
+
+![新用户礼包](https://restname.oss-cn-hangzhou.aliyuncs.com/202506161840034.jpeg)
+
+**适用人群**：追求原生体验的深度用户
+
+**服务详情**：
+
+* 月费：20美元
+* 新用户享受首月免费试用
+* 功能最完整，更新最及时
+
+**使用要求**：
+
+* 稳定的科学上网环境
+* 有效的谷歌账号
+* 国际信用卡支持
+
+**官方地址**：[https://gemini.google.com/app](https://gemini.google.com/app)
+
+---
+
+### **🔧 方案四：中转API服务（开发者首选）**
+
+![API界面](https://restname.oss-cn-hangzhou.aliyuncs.com/202506161840084.png)
+
+**适用人群**：开发者、技术集成需求用户
+
+**服务特点**：
+
+* 按实际使用量计费
+* 账户余额永不过期
+* 支持程序化调用
+* 适合轻量级使用场景
+
+**技术优势**：
+
+* 灵活的API接口
+* 支持自定义集成
+* 成本可控
+
+**服务地址**：[https://apipro.maynor1024.live/](https://apipro.maynor1024.live/)
+
+**注意事项**：部分高级功能（如 Artifact）可能在API版本中受限。
+
+---
+
+### **❌ 方案五：Google AI Studio（已暂停）**
+
+![AI Studio截图](https://restname.oss-cn-hangzhou.aliyuncs.com/202506161840795.jpeg)
+
+![暂停公告](https://restname.oss-cn-hangzhou.aliyuncs.com/202506161840823.jpeg)
+
+![配额下架](https://restname.oss-cn-hangzhou.aliyuncs.com/202506161840874.jpeg)
+
+**当前状态**：由于免费额度过高导致用户量激增，官方已暂时关闭 Gemini 2.5 Pro API 的免费层级，以保证付费用户的使用体验。
+
+**历史服务**：
+
+* 曾提供免费API调用
+* 支持开发者灵活使用
+* 无使用时间限制
+
+**后续关注**：建议关注官方动态，等待免费服务重新开放。
+
+---
+
+## **选择建议**
+
+### **🎓 学生用户**
+
+如果你有美国教育邮箱，毫不犹豫选择教育免费方案，15个月免费期足够长期使用。
+
+### **🏢 商务用户**
+
+追求稳定可靠的服务，建议选择官网付费订阅，新用户还能享受首月免费。
+
+### **🛠️ 开发者**
+
+需要API集成的技术用户，推荐中转API服务，按量付费更经济。
+
+### **🌟 普通用户**
+
+不想折腾各种设置，直接使用国内镜像站点最为便捷，还能同时体验多款AI模型。
+
+### **💡 尝鲜用户**
+
+想要快速体验的用户，国内镜像站点是最快的入门方式，无任何门槛限制。
+
+---
+
+**总结**：Gemini 2.5 Pro 凭借出色的推理能力成为当前AI领域的佼佼者。五种使用方案各有特色，用户可根据自身需求、技术水平和预算选择最适合的方案。无论是追求免费体验还是专业应用，总有一种方式能满足你的需求。

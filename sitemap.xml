@@ -1,54 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-    <!-- 首页 -->
-    <url>
-        <loc>https://xianyu110.github.io/gemini2.5pro/</loc>
-        <lastmod>2025-08-02</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-
-    <!-- 主要页面锚点 -->
-    <url>
-        <loc>https://xianyu110.github.io/gemini2.5pro/#comparison</loc>
-        <lastmod>2025-08-02</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-
-    <url>
-        <loc>https://xianyu110.github.io/gemini2.5pro/#methods</loc>
-        <lastmod>2025-08-02</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
-
-    <url>
-        <loc>https://xianyu110.github.io/gemini2.5pro/#recommendation</loc>
-        <lastmod>2025-08-02</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-
-    <!-- 样式和脚本文件（可选，通常不包含在sitemap中） -->
-    <!--
-    <url>
-        <loc>https://xianyu110.github.io/gemini2.5pro/style.css</loc>
-        <lastmod>2025-08-02</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.3</priority>
-    </url>
-
-    <url>
-        <loc>https://xianyu110.github.io/gemini2.5pro/script.js</loc>
-        <lastmod>2025-08-02</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.3</priority>
-    </url>
-    -->
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://xianyu110.github.io/gemini2.5pro/</loc>
+    <lastmod>2025-08-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://xianyu110.github.io/gemini2.5pro/" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://xianyu110.github.io/gemini2.5pro/?lang=en-US" />
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://xianyu110.github.io/gemini2.5pro/?lang=ja-JP" />
+    <xhtml:link rel="alternate" hreflang="ko-KR" href="https://xianyu110.github.io/gemini2.5pro/?lang=ko-KR" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://xianyu110.github.io/gemini2.5pro/?lang=es-ES" />
+  </url>
 </urlset>
