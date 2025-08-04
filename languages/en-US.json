@@ -1,0 +1,187 @@
+{
+  "nav": {
+    "logo": "Gemini Guide",
+    "home": "Home",
+    "comparison": "Comparison",
+    "methods": "Methods",
+    "recommendation": "Recommendations"
+  },
+  "hero": {
+    "badge": "🚀 Latest Update",
+    "title": "Gemini 2.5 Pro",
+    "titleHighlight": "Complete Usage Guide for China",
+    "description": "Compare five mainstream solutions to choose the best Gemini 2.5 Pro experience for you",
+    "comparisonBtn": "Compare Methods",
+    "guideBtn": "Usage Guide",
+    "floatingCard": {
+      "title": "Gemini 2.5 Pro",
+      "subtitle": "Code · Reasoning · Creation"
+    }
+  },
+  "comparison": {
+    "title": "Method Comparison Overview",
+    "subtitle": "Choose the usage method that best suits your needs",
+    "table": {
+      "method": "Usage Method",
+      "convenience": "Convenience",
+      "cost": "Cost",
+      "difficulty": "Technical Barrier",
+      "completeness": "Feature Completeness",
+      "rating": "Recommendation",
+      "methods": {
+        "education": "Education Email Free",
+        "mirror": "Domestic Mirror Access",
+        "official": "Official Paid Subscription",
+        "api": "Relay API Service",
+        "studio": "Google AI Studio"
+      },
+      "costs": {
+        "free15": "Free for 15 months",
+        "payPerUse": "Pay per use",
+        "monthly20": "$20/month",
+        "payAsGo": "Pay as you go",
+        "disabled": "Temporarily disabled"
+      },
+      "difficulties": {
+        "needConditions": "Specific requirements",
+        "zeroBarrier": "Zero barrier",
+        "needVpn": "VPN required",
+        "needDev": "Development knowledge needed"
+      }
+    }
+  },
+  "methods": {
+    "title": "Detailed Usage Methods",
+    "subtitle": "Detailed introduction and usage guide for each method",
+    "education": {
+      "title": "🎯 Education Email Exclusive Benefits",
+      "subtitle": "Best Value",
+      "badge": "Recommended",
+      "audience": "Target Users:",
+      "audienceText": "Users with US education email addresses",
+      "advantages": "Core Advantages:",
+      "advantagesList": [
+        "Free usage for up to 15 months",
+        "Identical features to paid version",
+        "Official genuine service guarantee"
+      ],
+      "requirements": "Application Requirements:",
+      "requirementsList": [
+        "Google account that hasn't activated Gemini Advanced",
+        "US .edu education email for identity verification",
+        "Credit card binding for identity validation",
+        "Must register before June 30, 2025"
+      ],
+      "button": "Official Entry",
+      "contact": "Ready-made education account for $149, use for 15 months",
+      "contactWechat": "Add WeChat customer service if needed:",
+      "wechatId": "coder-maynor"
+    },
+    "mirror": {
+      "title": "🚀 Domestic Mirror Sites",
+      "subtitle": "Most Convenient Choice",
+      "badge": "Popular",
+      "audience": "Target Users:",
+      "audienceText": "General users seeking convenience",
+      "advantages": "Core Advantages:",
+      "advantagesList": [
+        "No VPN tools required",
+        "No Google account registration needed",
+        "No credit card binding required",
+        "Integrates multiple mainstream AI models"
+      ],
+      "features": "Special Features:",
+      "featuresText": "In addition to Gemini 2.5 Pro, you can simultaneously experience other top AI models (ChatGPT4o, Claude 3.5 Sonnet, GPT4.1, DeepSeek R1, etc.), a one-stop AI experience platform.",
+      "button": "Try Now"
+    },
+    "official": {
+      "title": "💰 Official Subscription Service",
+      "subtitle": "Native Experience",
+      "audience": "Target Users:",
+      "audienceText": "Advanced users seeking native experience",
+      "pricing": "Service Details:",
+      "pricingList": [
+        "Monthly fee: $20",
+        "New users enjoy first month free trial",
+        "Most complete features, most timely updates"
+      ],
+      "requirements": "Usage Requirements:",
+      "requirementsList": [
+        "Stable VPN environment",
+        "Valid Google account",
+        "International credit card support"
+      ],
+      "button": "Official Website"
+    },
+    "api": {
+      "title": "🔧 Relay API Service",
+      "subtitle": "Developer's Choice",
+      "audience": "Target Users:",
+      "audienceText": "Developers and users with technical integration needs",
+      "features": "Service Features:",
+      "featuresList": [
+        "Billing based on actual usage",
+        "Account balance never expires",
+        "Supports programmatic calls",
+        "Suitable for lightweight usage scenarios"
+      ],
+      "advantages": "Technical Advantages:",
+      "advantagesList": [
+        "Flexible API interface",
+        "Supports custom integration",
+        "Controllable costs"
+      ],
+      "button": "Service Address",
+      "note": "Note: Some advanced features may be limited in the API version"
+    },
+    "studio": {
+      "title": "❌ Google AI Studio",
+      "subtitle": "Suspended",
+      "badge": "Disabled",
+      "status": "Current Status:",
+      "statusText": "Due to excessive free quotas leading to user surge, Google has temporarily closed the free tier of Gemini 2.5 Pro API to ensure the experience for paying users.",
+      "history": "Historical Service:",
+      "historyList": [
+        "Previously provided free API calls",
+        "Supported flexible developer usage",
+        "No usage time limits"
+      ],
+      "note": "Recommend following official updates and waiting for free service to reopen"
+    }
+  },
+  "recommendation": {
+    "title": "Selection Recommendations",
+    "subtitle": "Choose the most suitable solution based on your needs",
+    "student": {
+      "title": "🎓 Students",
+      "description": "If you have a US education email, choose the education free plan without hesitation. The 15-month free period is sufficient for long-term use."
+    },
+    "business": {
+      "title": "🏢 Business Users",
+      "description": "For stable and reliable service, choose the official paid subscription. New users can also enjoy the first month free."
+    },
+    "developer": {
+      "title": "🛠️ Developers",
+      "description": "For technical users needing API integration, the relay API service is recommended with more economical pay-as-you-go pricing."
+    },
+    "general": {
+      "title": "🌟 General Users",
+      "description": "Don't want to deal with various settings? Use domestic mirror sites for maximum convenience, plus experience multiple AI models simultaneously."
+    },
+    "trial": {
+      "title": "💡 Trial Users",
+      "description": "For users wanting quick experience, domestic mirror sites are the fastest entry method with no barriers."
+    }
+  },
+  "footer": {
+    "logo": "Gemini Guide",
+    "description": "Help you choose the most suitable Gemini 2.5 Pro usage solution",
+    "stats": {
+      "visitors": "Visitors",
+      "methods": "Methods",
+      "updated": "Last Updated",
+      "today": "Today"
+    },
+    "copyright": "© 2025 Gemini Usage Guide. Content is for reference only, please comply with relevant terms of service."
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "nav": {
+    "logo": "Geminiガイド",
+    "home": "ホーム",
+    "comparison": "比較",
+    "methods": "利用方法",
+    "recommendation": "おすすめ"
+  },
+  "hero": {
+    "badge": "🚀 最新更新",
+    "title": "Gemini 2.5 Pro",
+    "titleHighlight": "中国国内利用完全ガイド",
+    "description": "5つの主要ソリューションを比較し、最適なGemini 2.5 Pro体験方法を選択",
+    "comparisonBtn": "方法比較",
+    "guideBtn": "利用ガイド",
+    "floatingCard": {
+      "title": "Gemini 2.5 Pro",
+      "subtitle": "プログラミング・推論・創造"
+    }
+  },
+  "comparison": {
+    "title": "利用方法比較一覧",
+    "subtitle": "ニーズに最適な利用方法を選択",
+    "table": {
+      "method": "利用方法",
+      "convenience": "利便性",
+      "cost": "コスト",
+      "difficulty": "技術的障壁",
+      "completeness": "機能完全性",
+      "rating": "推奨度",
+      "methods": {
+        "education": "教育メール無料",
+        "mirror": "国内ミラーアクセス",
+        "official": "公式有料サブスク",
+        "api": "中継APIサービス",
+        "studio": "Google AI Studio"
+      },
+      "costs": {
+        "free15": "15ヶ月無料",
+        "payPerUse": "従量課金",
+        "monthly20": "月額20ドル",
+        "payAsGo": "使用量課金",
+        "disabled": "一時停止中"
+      },
+      "difficulties": {
+        "needConditions": "特定条件必要",
+        "zeroBarrier": "ゼロ障壁",
+        "needVpn": "VPN必要",
+        "needDev": "開発知識必要"
+      }
+    }
+  },
+  "methods": {
+    "title": "詳細利用方法",
+    "subtitle": "各方法の詳細説明と利用ガイド",
+    "education": {
+      "title": "🎯 教育メール専用特典",
+      "subtitle": "コスパ最高",
+      "badge": "推奨",
+      "audience": "対象ユーザー：",
+      "audienceText": "米国教育メールアドレス保有者",
+      "advantages": "主な利点：",
+      "advantagesList": [
+        "最大15ヶ月間無料利用",
+        "有料版と同等の機能",
+        "公式正規サービス保証"
+      ],
+      "requirements": "申請条件：",
+      "requirementsList": [
+        "Gemini Advancedを開通していないGoogleアカウント",
+        "身元確認用の米国.edu教育メール",
+        "身元確認のためのクレジットカード登録",
+        "2025年6月30日までに登録完了"
+      ],
+      "button": "公式入口",
+      "contact": "完成品教育アカウント149ドルで15ヶ月利用可能",
+      "contactWechat": "必要であればWeChatカスタマーサービス追加：",
+      "wechatId": "coder-maynor"
+    },
+    "mirror": {
+      "title": "🚀 国内ミラーサイト",
+      "subtitle": "最も便利な選択",
+      "badge": "人気",
+      "audience": "対象ユーザー：",
+      "audienceText": "利便性を求める一般ユーザー",
+      "advantages": "主な利点：",
+      "advantagesList": [
+        "VPNツール不要",
+        "Googleアカウント登録不要",
+        "クレジットカード登録不要",
+        "複数の主要AIモデル統合"
+      ],
+      "features": "特色機能：",
+      "featuresText": "Gemini 2.5 Pro以外にも、他の最高級AIモデル（ChatGPT4o、Claude 3.5 Sonnet、GPT4.1、DeepSeek R1など）を同時体験可能、ワンストップAI体験プラットフォーム。",
+      "button": "今すぐ体験"
+    },
+    "official": {
+      "title": "💰 公式サブスクリプション",
+      "subtitle": "ネイティブ体験",
+      "audience": "対象ユーザー：",
+      "audienceText": "ネイティブ体験を求める上級ユーザー",
+      "pricing": "サービス詳細：",
+      "pricingList": [
+        "月額：20ドル",
+        "新規ユーザーは初月無料試用",
+        "最も完全な機能、最も迅速な更新"
+      ],
+      "requirements": "利用要件：",
+      "requirementsList": [
+        "安定したVPN環境",
+        "有効なGoogleアカウント",
+        "国際クレジットカード対応"
+      ],
+      "button": "公式サイト"
+    },
+    "api": {
+      "title": "🔧 中継APIサービス",
+      "subtitle": "開発者の選択",
+      "audience": "対象ユーザー：",
+      "audienceText": "開発者、技術統合ニーズのユーザー",
+      "features": "サービス特徴：",
+      "featuresList": [
+        "実際の使用量に基づく課金",
+        "アカウント残高永続",
+        "プログラム呼び出し対応",
+        "軽量利用シナリオに適合"
+      ],
+      "advantages": "技術的利点：",
+      "advantagesList": [
+        "柔軟なAPIインターフェース",
+        "カスタム統合対応",
+        "コスト制御可能"
+      ],
+      "button": "サービスアドレス",
+      "note": "注意：一部の高度機能がAPIバージョンで制限される可能性"
+    },
+    "studio": {
+      "title": "❌ Google AI Studio",
+      "subtitle": "停止中",
+      "badge": "停用",
+      "status": "現在のステータス：",
+      "statusText": "無料枠の過剰によりユーザー急増のため、Googleは有料ユーザーの体験を保証するため、Gemini 2.5 Pro APIの無料階層を一時的に閉鎖。",
+      "history": "過去のサービス：",
+      "historyList": [
+        "以前は無料API呼び出し提供",
+        "開発者の柔軟な利用をサポート",
+        "利用時間制限なし"
+      ],
+      "note": "公式の動向に注目し、無料サービスの再開を待つことを推奨"
+    }
+  },
+  "recommendation": {
+    "title": "選択推奨",
+    "subtitle": "ニーズに応じて最適なソリューションを選択",
+    "student": {
+      "title": "🎓 学生ユーザー",
+      "description": "米国教育メールをお持ちの場合、迷わず教育無料プランを選択。15ヶ月の無料期間は長期利用に十分。"
+    },
+    "business": {
+      "title": "🏢 ビジネスユーザー",
+      "description": "安定で信頼できるサービスを求める場合、公式有料サブスクリプションを推奨。新規ユーザーは初月無料も享受可能。"
+    },
+    "developer": {
+      "title": "🛠️ 開発者",
+      "description": "API統合が必要な技術ユーザーには、より経済的な従量課金の中継APIサービスを推奨。"
+    },
+    "general": {
+      "title": "🌟 一般ユーザー",
+      "description": "各種設定に悩みたくない場合、国内ミラーサイトの直接利用が最も便利で、複数のAIモデルも同時体験可能。"
+    },
+    "trial": {
+      "title": "💡 試用ユーザー",
+      "description": "迅速な体験を求めるユーザーには、国内ミラーサイトが最速の入門方法で、障壁制限なし。"
+    }
+  },
+  "footer": {
+    "logo": "Geminiガイド",
+    "description": "最適なGemini 2.5 Pro利用ソリューション選択をサポート",
+    "stats": {
+      "visitors": "訪問数",
+      "methods": "利用方法",
+      "updated": "最終更新",
+      "today": "今日"
+    },
+    "copyright": "© 2025 Gemini利用ガイド. 内容は参考用のみ、関連サービス規約を遵守してください。"
+  }
+}

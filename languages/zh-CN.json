@@ -1,0 +1,187 @@
+{
+  "nav": {
+    "logo": "Gemini 指南",
+    "home": "首页",
+    "comparison": "方案对比",
+    "methods": "详细方案",
+    "recommendation": "选择建议"
+  },
+  "hero": {
+    "badge": "🚀 最新更新",
+    "title": "Gemini 2.5 Pro",
+    "titleHighlight": "国内使用完全指南",
+    "description": "五大主流方案对比，助您选择最适合的 Gemini 2.5 Pro 体验方式",
+    "comparisonBtn": "方案对比",
+    "guideBtn": "使用指南",
+    "floatingCard": {
+      "title": "Gemini 2.5 Pro",
+      "subtitle": "编程 · 推理 · 创造"
+    }
+  },
+  "comparison": {
+    "title": "方案对比一览",
+    "subtitle": "选择最适合您需求的使用方式",
+    "table": {
+      "method": "使用方式",
+      "convenience": "便利程度",
+      "cost": "成本投入",
+      "difficulty": "技术门槛",
+      "completeness": "功能完整度",
+      "rating": "推荐指数",
+      "methods": {
+        "education": "教育邮箱免费",
+        "mirror": "国内镜像直连",
+        "official": "官网付费订阅",
+        "api": "中转API调用",
+        "studio": "Google AI Studio"
+      },
+      "costs": {
+        "free15": "免费15个月",
+        "payPerUse": "按需付费",
+        "monthly20": "20美元/月",
+        "payAsGo": "按量计费",
+        "disabled": "暂时停用"
+      },
+      "difficulties": {
+        "needConditions": "需特定条件",
+        "zeroBarrier": "零门槛",
+        "needVpn": "需科学上网",
+        "needDev": "需开发知识"
+      }
+    }
+  },
+  "methods": {
+    "title": "详细使用方案",
+    "subtitle": "每种方案的详细介绍和使用指南",
+    "education": {
+      "title": "🎯 教育邮箱专享福利",
+      "subtitle": "性价比之王",
+      "badge": "推荐",
+      "audience": "适用人群：",
+      "audienceText": "持有美国教育邮箱的用户",
+      "advantages": "核心优势：",
+      "advantagesList": [
+        "免费使用长达15个月",
+        "功能与付费版完全一致",
+        "官方正版保障"
+      ],
+      "requirements": "申请条件：",
+      "requirementsList": [
+        "拥有未开通过 Gemini Advanced 的谷歌账号",
+        "持有美国 .edu 教育邮箱用于身份验证",
+        "需绑定信用卡完成身份校验",
+        "须在2025年6月30日前完成注册"
+      ],
+      "button": "官方入口",
+      "contact": "有成品教育账号149使用长达15个月",
+      "contactWechat": "如需要可添加微信客服：",
+      "wechatId": "coder-maynor"
+    },
+    "mirror": {
+      "title": "🚀 国内镜像站点",
+      "subtitle": "最便捷选择",
+      "badge": "热门",
+      "audience": "适用人群：",
+      "audienceText": "追求便利性的普通用户",
+      "advantages": "核心优势：",
+      "advantagesList": [
+        "无需科学上网工具",
+        "无需谷歌账号注册",
+        "无需信用卡绑定",
+        "集成多款主流AI模型"
+      ],
+      "features": "特色功能：",
+      "featuresText": "除 Gemini 2.5 Pro 外，还可同时体验其他顶级AI模型（ChatGPT4o、Claude 3.5 Sonnet、GPT4.1、DeepSeek R1等），一站式AI体验平台。",
+      "button": "立即体验"
+    },
+    "official": {
+      "title": "💰 官网订阅服务",
+      "subtitle": "原生体验",
+      "audience": "适用人群：",
+      "audienceText": "追求原生体验的深度用户",
+      "pricing": "服务详情：",
+      "pricingList": [
+        "月费：20美元",
+        "新用户享受首月免费试用",
+        "功能最完整，更新最及时"
+      ],
+      "requirements": "使用要求：",
+      "requirementsList": [
+        "稳定的科学上网环境",
+        "有效的谷歌账号",
+        "国际信用卡支持"
+      ],
+      "button": "官方地址"
+    },
+    "api": {
+      "title": "🔧 中转API服务",
+      "subtitle": "开发者首选",
+      "audience": "适用人群：",
+      "audienceText": "开发者、技术集成需求用户",
+      "features": "服务特点：",
+      "featuresList": [
+        "按实际使用量计费",
+        "账户余额永不过期",
+        "支持程序化调用",
+        "适合轻量级使用场景"
+      ],
+      "advantages": "技术优势：",
+      "advantagesList": [
+        "灵活的API接口",
+        "支持自定义集成",
+        "成本可控"
+      ],
+      "button": "服务地址",
+      "note": "注意：部分高级功能可能在API版本中受限"
+    },
+    "studio": {
+      "title": "❌ Google AI Studio",
+      "subtitle": "已暂停",
+      "badge": "停用",
+      "status": "当前状态：",
+      "statusText": "由于免费额度过高导致用户量激增，官方已暂时关闭 Gemini 2.5 Pro API 的免费层级，以保证付费用户的使用体验。",
+      "history": "历史服务：",
+      "historyList": [
+        "曾提供免费API调用",
+        "支持开发者灵活使用",
+        "无使用时间限制"
+      ],
+      "note": "建议关注官方动态，等待免费服务重新开放"
+    }
+  },
+  "recommendation": {
+    "title": "选择建议",
+    "subtitle": "根据您的需求选择最适合的方案",
+    "student": {
+      "title": "🎓 学生用户",
+      "description": "如果您有美国教育邮箱，毫不犹豫选择教育免费方案，15个月免费期足够长期使用。"
+    },
+    "business": {
+      "title": "🏢 商务用户",
+      "description": "追求稳定可靠的服务，建议选择官网付费订阅，新用户还能享受首月免费。"
+    },
+    "developer": {
+      "title": "🛠️ 开发者",
+      "description": "需要API集成的技术用户，推荐中转API服务，按量付费更经济。"
+    },
+    "general": {
+      "title": "🌟 普通用户",
+      "description": "不想折腾各种设置，直接使用国内镜像站点最为便捷，还能同时体验多款AI模型。"
+    },
+    "trial": {
+      "title": "💡 尝鲜用户",
+      "description": "想要快速体验的用户，国内镜像站点是最快的入门方式，无任何门槛限制。"
+    }
+  },
+  "footer": {
+    "logo": "Gemini 指南",
+    "description": "帮助您选择最适合的 Gemini 2.5 Pro 使用方案",
+    "stats": {
+      "visitors": "访问量",
+      "methods": "使用方案",
+      "updated": "最后更新",
+      "today": "今日"
+    },
+    "copyright": "© 2025 Gemini 使用指南. 本站内容仅供参考，请遵守相关服务条款。"
+  }
+}

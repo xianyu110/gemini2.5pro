@@ -20,14 +20,7 @@ function initNavigation() {
     if (navToggle && navMenu) {
         navToggle.addEventListener('click', function() {
             navMenu.classList.toggle('active');
-            
-            // 汉堡菜单动画
-            const bars = navToggle.querySelectorAll('.bar');
-            bars.forEach((bar, index) => {
-                bar.style.transform = navMenu.classList.contains('active') 
-                    ? getBarTransform(index) 
-                    : 'none';
-            });
+            navToggle.classList.toggle('active');
         });
     }
     
@@ -36,10 +29,7 @@ function initNavigation() {
         link.addEventListener('click', () => {
             if (navMenu.classList.contains('active')) {
                 navMenu.classList.remove('active');
-                const bars = navToggle.querySelectorAll('.bar');
-                bars.forEach(bar => {
-                    bar.style.transform = 'none';
-                });
+                navToggle.classList.remove('active');
             }
         });
     });
@@ -72,15 +62,6 @@ function initNavigation() {
     });
 }
 
-// 获取汉堡菜单栏变换
-function getBarTransform(index) {
-    const transforms = [
-        'rotate(-45deg) translate(-5px, 6px)',
-        'opacity: 0',
-        'rotate(45deg) translate(-5px, -6px)'
-    ];
-    return transforms[index];
-}
 
 // 英雄区动画
 function initHeroAnimations() {
@@ -574,8 +555,10 @@ document.addEventListener('keydown', function(e) {
     // ESC 关闭移动端菜单
     if (e.key === 'Escape') {
         const navMenu = document.querySelector('.nav-menu');
+        const navToggle = document.querySelector('.nav-toggle');
         if (navMenu && navMenu.classList.contains('active')) {
             navMenu.classList.remove('active');
+            navToggle.classList.remove('active');
         }
     }
 });
@@ -610,3 +593,128 @@ window.GeminiGuide = {
     updateVisitorStats,
     animateNumber
 };
+
+// 国际化(i18n)系统
+let currentLanguage = "zh-CN";
+let translations = {};
+
+// 初始化国际化系统
+function initI18n() {
+    // 从localStorage获取保存的语言设置
+    const savedLanguage = localStorage.getItem("gemini-guide-language") || "zh-CN";
+    
+    // 设置语言选择器的值
+    const languageSelect = document.getElementById("language-select");
+    if (languageSelect) {
+        languageSelect.value = savedLanguage;
+        languageSelect.addEventListener("change", changeLanguage);
+    }
+    
+    // 加载并应用语言
+    loadLanguage(savedLanguage);
+}
+
+// 切换语言
+function changeLanguage(event) {
+    const selectedLanguage = event.target.value;
+    loadLanguage(selectedLanguage);
+    
+    // 保存语言设置到localStorage
+    localStorage.setItem("gemini-guide-language", selectedLanguage);
+}
+
+// 加载语言文件
+async function loadLanguage(language) {
+    try {
+        // 如果已经加载过该语言，直接应用
+        if (translations[language]) {
+            applyTranslations(language);
+            return;
+        }
+        
+        // 加载语言文件
+        const response = await fetch(`./languages/${language}.json`);
+        if (!response.ok) {
+            throw new Error(`Failed to load language file: ${language}`);
+        }
+        
+        const data = await response.json();
+        translations[language] = data;
+        
+        // 应用翻译
+        applyTranslations(language);
+        
+    } catch (error) {
+        console.error("Error loading language:", error);
+        // 如果加载失败，回退到中文
+        if (language !== "zh-CN") {
+            loadLanguage("zh-CN");
+        }
+    }
+}
+
+// 应用翻译
+function applyTranslations(language) {
+    currentLanguage = language;
+    const data = translations[language];
+    
+    if (!data) return;
+    
+    // 获取所有带有data-i18n属性的元素
+    const elements = document.querySelectorAll("[data-i18n]");
+    
+    elements.forEach(element => {
+        const key = element.getAttribute("data-i18n");
+        const translation = getNestedTranslation(data, key);
+        
+        if (translation) {
+            element.textContent = translation;
+        }
+    });
+    
+    // 更新页面语言属性
+    document.documentElement.lang = language.split("-")[0];
+    
+    // 显示语言切换成功提示
+    if (window.GeminiGuide && window.GeminiGuide.showToast) {
+        const languageNames = {
+            "zh-CN": "中文",
+            "en-US": "English", 
+            "ja-JP": "日本語",
+            "ko-KR": "한국어",
+            "es-ES": "Español"
+        };
+        window.GeminiGuide.showToast(`语言已切换到${languageNames[language]} / Language switched to ${languageNames[language]}`);
+    }
+}
+
+// 获取嵌套的翻译值
+function getNestedTranslation(obj, path) {
+    return path.split(".").reduce((current, key) => {
+        // 处理数组索引，如 "advantagesList.0"
+        if (!isNaN(key)) {
+            return current && current[parseInt(key)];
+        }
+        return current && current[key];
+    }, obj);
+}
+
+// 获取当前语言的翻译
+function t(key) {
+    const data = translations[currentLanguage];
+    return getNestedTranslation(data, key) || key;
+}
+
+// 添加到全局命名空间
+if (!window.GeminiGuide) {
+    window.GeminiGuide = {};
+}
+window.GeminiGuide.t = t;
+window.GeminiGuide.changeLanguage = loadLanguage;
+window.GeminiGuide.getCurrentLanguage = () => currentLanguage;
+
+
+// 初始化国际化
+document.addEventListener("DOMContentLoaded", function() {
+    initI18n();
+});

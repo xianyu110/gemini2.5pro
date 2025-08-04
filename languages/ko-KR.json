@@ -1,0 +1,187 @@
+{
+  "nav": {
+    "logo": "Gemini 가이드",
+    "home": "홈",
+    "comparison": "비교",
+    "methods": "이용방법",
+    "recommendation": "추천"
+  },
+  "hero": {
+    "badge": "🚀 최신 업데이트",
+    "title": "Gemini 2.5 Pro",
+    "titleHighlight": "중국 국내 이용 완전 가이드",
+    "description": "5가지 주요 솔루션을 비교하여 최적의 Gemini 2.5 Pro 체험 방법을 선택하세요",
+    "comparisonBtn": "방법 비교",
+    "guideBtn": "이용 가이드",
+    "floatingCard": {
+      "title": "Gemini 2.5 Pro",
+      "subtitle": "프로그래밍 · 추론 · 창조"
+    }
+  },
+  "comparison": {
+    "title": "이용방법 비교 개요",
+    "subtitle": "귀하의 요구에 가장 적합한 이용 방법을 선택하세요",
+    "table": {
+      "method": "이용방법",
+      "convenience": "편의성",
+      "cost": "비용",
+      "difficulty": "기술적 장벽",
+      "completeness": "기능 완전성",
+      "rating": "추천도",
+      "methods": {
+        "education": "교육 이메일 무료",
+        "mirror": "국내 미러 접속",
+        "official": "공식 유료 구독",
+        "api": "중계 API 서비스",
+        "studio": "Google AI Studio"
+      },
+      "costs": {
+        "free15": "15개월 무료",
+        "payPerUse": "사용량 과금",
+        "monthly20": "월 20달러",
+        "payAsGo": "사용량 과금",
+        "disabled": "일시 중단"
+      },
+      "difficulties": {
+        "needConditions": "특정 조건 필요",
+        "zeroBarrier": "제로 장벽",
+        "needVpn": "VPN 필요",
+        "needDev": "개발 지식 필요"
+      }
+    }
+  },
+  "methods": {
+    "title": "상세 이용 방법",
+    "subtitle": "각 방법의 상세 설명과 이용 가이드",
+    "education": {
+      "title": "🎯 교육 이메일 전용 혜택",
+      "subtitle": "최고의 가성비",
+      "badge": "추천",
+      "audience": "대상 사용자:",
+      "audienceText": "미국 교육 이메일 주소 보유자",
+      "advantages": "핵심 장점:",
+      "advantagesList": [
+        "최대 15개월 무료 이용",
+        "유료 버전과 완전 동일한 기능",
+        "공식 정품 보장"
+      ],
+      "requirements": "신청 조건:",
+      "requirementsList": [
+        "Gemini Advanced를 개통하지 않은 Google 계정",
+        "신원 확인용 미국 .edu 교육 이메일",
+        "신원 확인을 위한 신용카드 등록",
+        "2025년 6월 30일 이전 등록 완료"
+      ],
+      "button": "공식 입구",
+      "contact": "완성품 교육 계정 149달러로 15개월 이용 가능",
+      "contactWechat": "필요시 WeChat 고객 서비스 추가:",
+      "wechatId": "coder-maynor"
+    },
+    "mirror": {
+      "title": "🚀 국내 미러 사이트",
+      "subtitle": "가장 편리한 선택",
+      "badge": "인기",
+      "audience": "대상 사용자:",
+      "audienceText": "편의성을 추구하는 일반 사용자",
+      "advantages": "핵심 장점:",
+      "advantagesList": [
+        "VPN 도구 불필요",
+        "Google 계정 등록 불필요",
+        "신용카드 등록 불필요",
+        "여러 주요 AI 모델 통합"
+      ],
+      "features": "특색 기능:",
+      "featuresText": "Gemini 2.5 Pro 외에도 다른 최고급 AI 모델(ChatGPT4o, Claude 3.5 Sonnet, GPT4.1, DeepSeek R1 등)을 동시에 체험할 수 있는 원스톱 AI 체험 플랫폼.",
+      "button": "즉시 체험"
+    },
+    "official": {
+      "title": "💰 공식 구독 서비스",
+      "subtitle": "네이티브 체험",
+      "audience": "대상 사용자:",
+      "audienceText": "네이티브 체험을 추구하는 고급 사용자",
+      "pricing": "서비스 세부사항:",
+      "pricingList": [
+        "월 요금: 20달러",
+        "신규 사용자 첫 달 무료 체험",
+        "가장 완전한 기능, 가장 신속한 업데이트"
+      ],
+      "requirements": "이용 요구사항:",
+      "requirementsList": [
+        "안정적인 VPN 환경",
+        "유효한 Google 계정",
+        "국제 신용카드 지원"
+      ],
+      "button": "공식 사이트"
+    },
+    "api": {
+      "title": "🔧 중계 API 서비스",
+      "subtitle": "개발자의 선택",
+      "audience": "대상 사용자:",
+      "audienceText": "개발자, 기술 통합 필요 사용자",
+      "features": "서비스 특징:",
+      "featuresList": [
+        "실제 사용량 기반 과금",
+        "계정 잔액 영구 보존",
+        "프로그램 호출 지원",
+        "경량 사용 시나리오에 적합"
+      ],
+      "advantages": "기술적 장점:",
+      "advantagesList": [
+        "유연한 API 인터페이스",
+        "사용자 정의 통합 지원",
+        "비용 제어 가능"
+      ],
+      "button": "서비스 주소",
+      "note": "주의: 일부 고급 기능이 API 버전에서 제한될 수 있음"
+    },
+    "studio": {
+      "title": "❌ Google AI Studio",
+      "subtitle": "중단됨",
+      "badge": "중단",
+      "status": "현재 상태:",
+      "statusText": "무료 할당량 과다로 인한 사용자 급증으로, Google은 유료 사용자의 체험을 보장하기 위해 Gemini 2.5 Pro API의 무료 계층을 일시적으로 폐쇄.",
+      "history": "과거 서비스:",
+      "historyList": [
+        "이전에 무료 API 호출 제공",
+        "개발자의 유연한 사용 지원",
+        "사용 시간 제한 없음"
+      ],
+      "note": "공식 동향을 주목하고 무료 서비스 재개를 기다릴 것을 권장"
+    }
+  },
+  "recommendation": {
+    "title": "선택 추천",
+    "subtitle": "귀하의 요구에 따라 최적의 솔루션을 선택하세요",
+    "student": {
+      "title": "🎓 학생 사용자",
+      "description": "미국 교육 이메일이 있다면 망설임 없이 교육 무료 플랜을 선택하세요. 15개월의 무료 기간은 장기 사용에 충분합니다."
+    },
+    "business": {
+      "title": "🏢 비즈니스 사용자",
+      "description": "안정적이고 신뢰할 수 있는 서비스를 추구한다면 공식 유료 구독을 권장하며, 신규 사용자는 첫 달 무료도 누릴 수 있습니다."
+    },
+    "developer": {
+      "title": "🛠️ 개발자",
+      "description": "API 통합이 필요한 기술 사용자에게는 더 경제적인 사용량 과금의 중계 API 서비스를 권장합니다."
+    },
+    "general": {
+      "title": "🌟 일반 사용자",
+      "description": "각종 설정에 신경 쓰고 싶지 않다면 국내 미러 사이트를 직접 사용하는 것이 가장 편리하며, 여러 AI 모델도 동시에 체험할 수 있습니다."
+    },
+    "trial": {
+      "title": "💡 체험 사용자",
+      "description": "빠른 체험을 원하는 사용자에게는 국내 미러 사이트가 가장 빠른 입문 방법이며, 어떤 장벽 제한도 없습니다."
+    }
+  },
+  "footer": {
+    "logo": "Gemini 가이드",
+    "description": "최적의 Gemini 2.5 Pro 이용 솔루션 선택을 도와드립니다",
+    "stats": {
+      "visitors": "방문수",
+      "methods": "이용방법",
+      "updated": "최종 업데이트",
+      "today": "오늘"
+    },
+    "copyright": "© 2025 Gemini 이용 가이드. 내용은 참고용이며, 관련 서비스 약관을 준수해 주세요."
+  }
+}
